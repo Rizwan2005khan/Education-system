@@ -1,69 +1,110 @@
-# React + TypeScript + Vite
+# 📚 EduConnect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Learn Anywhere, Anytime  
+> A modern education platform built to provide quality digital education access to rural students.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌍 Vision
 
-## Expanding the ESLint configuration
+EduConnect is designed to bridge the educational gap in rural areas like Waziristan, where access to qualified teachers and structured academic systems is limited.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The long-term vision is to build a scalable digital learning ecosystem that empowers students from primary to higher secondary levels with syllabus-based, structured, and trackable education.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🚨 Problem Statement
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Many rural regions face:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Shortage of qualified and experienced teachers  
+- Lack of structured academic guidance  
+- Limited access to quality educational resources  
+- No centralized digital learning system  
+- Weak progress tracking mechanisms  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+EduConnect aims to solve these challenges by providing an accessible and organized online learning platform.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## ✨ Current Features (Prototype Version)
+
+- 🔐 User Authentication (Login / Sign Up)
+- 📚 Lessons Section
+- 📝 Quiz System
+- 📊 Student Dashboard
+- 🔎 Search Functionality (Lessons / Subjects / Topics)
+- 📈 Basic Progress Tracking
+- 📱 Responsive Design
+
+All features are implemented to a functional level and will be continuously improved in future updates.
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** Next.js  
+- **Frontend:** React.js  
+- **Styling:** Tailwind CSS  
+- **Routing:** App Router  
+- **State Management:** React Hooks  
+- **Deployment:** (To be added)
+
+---
+
+EduConnect/
+│
+├── app/
+├── components/
+├── pages/
+├── public/
+├── styles/
+└── README.md
+
+
+---
+
+## 🚀 Future Roadmap
+
+- 🎓 Multi-class structured syllabus (Playgroup to 12th)
+- 👨‍🏫 Teacher Dashboard
+- 🧠 AI-based Learning Assistant
+- 📊 Advanced Analytics & Performance Reports
+- 📝 Exam & Assignment System
+- 📡 Low-bandwidth / Offline Support
+- 🌐 Multi-language Support (including regional languages)
+- 🏫 Admin Management Panel
+
+---
+
+## 🎯 Long-Term Goal
+
+To transform EduConnect into a scalable digital education platform that can:
+
+- Serve rural communities
+- Reduce dependency on limited physical teachers
+- Provide competitive academic preparation
+- Enable equal learning opportunities regardless of location
+
+---
+
+## 🤝 Contribution
+
+This project is currently in development phase.  
+Future collaboration and contributions will be welcomed.
+
+---
+
+## 👨‍💻 Author
+
+**Rizwan Ullah**  
+Software Engineering Student  
+Passionate about building impactful digital solutions for underserved communities.
+
+---
+
+## 📌 Status
+
+🚧 Active Development — More features coming soon.
+
+## 🏗 Project Structure
